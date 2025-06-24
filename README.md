@@ -8,5 +8,8 @@ Python= 3.7 and using the following command:
 pip install -r requirements.txt
 ```
 # Reference
-
+[LViT](https://github.com/HUANGLIZI/LViT)
 # Citation
+If you find ARSeg is useful for your research or application, please cite our paper.
+```
+```
