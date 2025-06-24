@@ -1,7 +1,7 @@
 import torch
 import os
 import Config as config
-from nets.ExtractNet import MTNet
+from nets.ARSeg_Net import ARSeg_Net
 from Utils import read_text,generate_text_mask,predict_output
 from torch.utils.data import DataLoader
 from utils.Calculate import cal_dice_loss
@@ -23,7 +23,7 @@ if __name__ == '__main__':
     vis_path='./'+config.task_name+'/visualization/'
     if not os.path.isdir(vis_path):
         os.makedirs(vis_path)
-    model=MTNet(Batch_Size=config.Batch_Size)
+    model=ARSeg_Net(Batch_Size=config.Batch_Size)
     model=model.cuda()
     model.load_state_dict(torch.load(model_path))
     print('model loaded')
