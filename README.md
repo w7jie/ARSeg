@@ -7,6 +7,13 @@ Python = 3.7 and using the following command:
 ```
 pip install -r requirements.txt
 ```
+# Usage
+## 1.Data preparation
+
+## 2.training
+
+## 3.Evaluation
+
 # Reference
 [LViT](https://github.com/HUANGLIZI/LViT)
 # Citation
