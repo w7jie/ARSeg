@@ -11,9 +11,13 @@ pip install -r requirements.txt
 ## 1.Data preparation
 
 ## 2.training
-
+```
+python train.py
+```
 ## 3.Evaluation
-
+```
+python test.py
+```
 # Reference
 [LViT](https://github.com/HUANGLIZI/LViT)
 # Citation
