@@ -11,10 +11,12 @@ pip install -r requirements.txt
 ## 1.Data preparation
 
 ## 2.training
+You can train your own model by the following command:
 ```
 python train.py
 ```
 ## 3.Evaluation
+You can edit Config.py and run the following command to get Dice and IoU scores and the visualization results.
 ```
 python test.py
 ```
