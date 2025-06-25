@@ -9,7 +9,13 @@ pip install -r requirements.txt
 ```
 # Usage
 ## 1.Data preparation
-
+### 1.1 QaTa-COV19 and MosMedData+ datasets
+You can download the original datasets and the text annotation in [LViT](https://github.com/HUANGLIZI/LViT).
+### 1.2 Process dataset
+You need to run following command to split the text annotation into three attribute.
+```
+python process_data.py
+```
 ## 2.training
 You can train your own model by the following command:
 ```
@@ -20,8 +26,6 @@ You can edit Config.py and run the following command to get Dice and IoU scores 
 ```
 python test.py
 ```
-# Reference
-[LViT](https://github.com/HUANGLIZI/LViT)
 # Citation
 If you find ARSeg is useful for your research or application, please cite our paper and give us a star.
 ```
