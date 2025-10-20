@@ -29,4 +29,12 @@ python test.py
 # Citation
 If you find ARSeg is useful for your research or application, please cite our paper and give us a star.
 ```
+@inproceedings{wang2025towards,
+  title={Towards Robust Medical Image Referring Segmentation with Incomplete Textual Prompts},
+  author={Wang, Qijie and Lin, Xian and Yan, Zengqiang},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={636--646},
+  year={2025},
+  organization={Springer}
+}
 ```
