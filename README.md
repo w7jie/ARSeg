@@ -12,7 +12,7 @@ pip install -r requirements.txt
 ### 1.1 QaTa-COV19 and MosMedData+ datasets
 You can download the original datasets and the text annotation in [LViT](https://github.com/HUANGLIZI/LViT).
 ### 1.2 Process dataset
-Before training, you need to run following command to split the text annotation into three attribute.
+Before training, you need to run following command to split the text annotation into three attribute. Then you need to replace original one with corresponding splited one.
 ```
 python process_data.py
 ```
